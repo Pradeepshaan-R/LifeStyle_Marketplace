@@ -52,7 +52,8 @@ function profileUserPic() {
             <!----------------- Dashboard Top-Bar Brand ----------------------->
             <a href="index.php" class="navbar-brand mb-3 senz">
                 <div class="img-thumbnail border-0 senz">
-                    <img src="images/SenzAgro_Logo.png" alt="logo" class="senz mb-4">
+                    <!-- <img src="images/SenzAgro_Logo.png" alt="logo" class="senz mb-4"> -->
+                    <span class="logo-Text mb-4">Life Style Market Place</span>
                 </div>
             </a>
             <!----------------- Dashboard Top-Bar Toggler ----------------------->
