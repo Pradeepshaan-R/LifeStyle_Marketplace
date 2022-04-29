@@ -1,0 +1,66 @@
+.card-product {
+    margin-right: 20px;
+    border-radius: 6px;
+    padding: 0;
+    box-shadow: 0 5px 10px #333333;
+    background: rgba(255,255,255,1);
+}
+.card-product .card-header {
+    background: transparent;
+    border: none;
+}
+.card-product .card-header h5 {
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 900;
+}
+.card-product .card-body .form-group label{
+    font-family: Poppins;
+    color: rgba(0, 0, 0,0.7);
+    font-weight: 600;
+    font-size: 12px;
+}
+.card-product .card-body .form-group .form-control {
+    font-family: Poppins;
+    margin-top: 0;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid  #4d4d4d;
+    color: #333333;
+    font-size: 12px;  
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+.card-product .card-body .form-group .form-control:focus {
+    border: 2px solid #00e600;
+}
+.card-product .card-footer {
+    border: none;
+    background: transparent;
+}
+.card-product .card-footer .submit-btn {
+    background:  #00b36b;
+    border-radius: 20px;
+    border: 2px solid  #00b36b;
+    width: 100px;
+    transition: all 0.5s;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.card-product .card-footer .preview-btn {
+    background:  #00b36b;
+    border-radius: 20px;
+    border: 2px solid  #00b36b;
+    width: 100px;
+    transition: all 0.5s;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.card-product .card-footer .submit-btn:hover,
+.card-product .card-footer .submit-btn:active,
+.card-product .card-footer .preview-btn:hover,
+.card-product .card-footer .preview-btn:active {
+    border: 2px solid  #00b36b;
+    background:  #00b36b;
+    width: 100px;
+    transition: all 0.5s;
+    font-weight: 700;
+    transform: translateY(-3px);
+}

@@ -1,0 +1,460 @@
+.settings-row {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    height: 900px;
+}
+/************************ Left Card Header ************************************/
+.card-settings-left {
+    background: white;
+    display: block;
+    padding: 0;
+}
+.card-settings-left .settings-header {
+    height: 60px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.card-settings-left .settings-header h5 {
+    font-family: 'Candal', sans-serif;
+    /*    font-family: 'Anton', serif;*/
+    font-size: 20px;
+    padding: 15px 0 0 15px;
+    font-weight: 500;
+}
+/************************ Left Card Body **************************************/
+.card-settings-left .settings-body { 
+    padding: 0;
+}
+.card-settings-left .settings-body .tab {
+    text-decoration: none;
+}
+.card-settings-left .settings-body .body-info {
+    height: 75px;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    position: relative; 
+    display: flex;
+}
+.card-settings-left .settings-body .body-info .settings-main-icon {
+    padding: 16px 0 0 30px;
+}
+.card-settings-left .settings-body .body-info .settings-main-icon i {
+    font-size: 25px;
+    color: rgba(0, 204, 0,0.8);
+}
+.card-settings-left .settings-body .body-info .settings-content {
+    padding: 10px 0 0 30px;
+}
+.card-settings-left .settings-body .body-info .settings-content span {
+    font-family: 'Slabo 27px', serif;
+    font-size: 16px;
+    color: #000;
+}
+.card-settings-left .settings-body .body-info .settings-content p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 14px;
+    color: rgba(89, 89, 89,0.9);
+}
+.card-settings-left .settings-body .body-info .settings-btn-arrow {
+    padding-top: 20px;
+    color: rgba(0, 204, 0,0.6);
+}
+.card-settings-left .settings-body .body-info:hover {
+    background: rgba(214, 224, 245,0.3);
+}
+/*.card-settings-left .settings-body .body-info:active {
+    border-right: 2px solid rgba(0, 153, 153,1);
+}*/
+.active {
+    background: rgba(214, 224, 245,0.2);
+    border-right: 2.3px solid rgba(0, 204, 0,1);
+}
+/****************************** Right Card ************************************/
+.card-settings-right {
+    background: white;
+    border-top: 1px solid #ddd; 
+    border-bottom: 1px solid #ddd;
+    border-left: 1px solid #ddd;  
+    display: block;
+    padding: 0;
+}
+.card-settings-right .settings-header {
+    height: 60px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.card-settings-right .settings-header h5 {
+    font-family: 'Candal', sans-serif;
+    font-size: 20px;
+    padding:15px 0 0 15px;
+    font-weight: 500;
+}
+/****** Right Card Body ********/
+.card-settings-right .settings-body { 
+    padding: 0;
+}
+.card-settings-right .settings-body .body-info-r {
+    height: 60px;
+    padding: 10px 0 0 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 0;
+    position: relative; 
+}
+.card-settings-right .settings-body .body-info-r:hover,
+.card-settings-right .settings-body .body-info-r:active {
+    background: rgba(214, 224, 245,0.3);
+}
+.card-settings-right .settings-body .body-info-r .settings-main-icon {
+    padding: 10px 0 0 25px;
+}
+.card-settings-right .settings-body .body-info-r .settings-main-icon i {
+    font-size: 20px;
+    color: rgba(0, 204, 0,0.4);
+}
+.card-settings-right .settings-body .body-info-r .settings-content {
+    padding: 0 0 0 22px;
+}
+.card-settings-right .settings-body .body-info-r .settings-content span {
+    font-family: 'Slabo 27px', serif;
+    font-size: 16px;
+    color: #000;
+}
+.card-settings-right .settings-body .body-info-r .settings-content p {
+    font-family: 'Slabo 27px', serif;
+    font-size: 14px;
+    color: rgba(89, 89, 89,0.9);
+}
+.card-settings-right .settings-body .body-info-r .settings-btn-arrow {
+    padding-top: 10px;
+    color: rgba(0, 204, 0,0.6);
+}
+.card-settings-right .settings-body .body-info-ps {
+    padding: 10px 0 0 15px;
+    border-bottom: 1px solid #ddd;
+    margin: 0 20px 0 0;
+    position: relative; 
+}
+.card-settings-right .settings-body .body-info-ps .form-group {
+    position: relative;
+}
+.tabShow {
+    display: none;
+}
+/*************** Account Information Accordion Style Start ********************/
+.card-settings-right .settings-body .accordion-form .card-body {
+    border-bottom: 1px solid #ddd;
+    background: rgba(214, 224, 245,0.2);
+}
+.card-settings-right .settings-body .accordion-form .card-body .form-group label {
+    font-family: Poppins;
+    color: rgba(0, 0, 0,0.7);
+    font-weight: 600;
+    font-size: 14px;
+}
+.card-settings-right .settings-body .accordion-form .card-body .form-group .form-control {
+    font-family: Poppins;
+    margin: 0 0 0 10px;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid  #4d4d4d;
+    color: #333333;
+    font-size: 12px;  
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+.card-settings-right .settings-body .accordion-form .card-body .form-group .form-control:focus {
+    border: 2px solid rgba(0, 204, 0,1);
+}
+.card-settings-right .settings-body .accordion-form .card-body .form-group button {
+    background: rgba(0, 204, 0,0.8);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 204, 0,0.8);
+    width: 100px;
+    margin: 0 0 0 30px;
+    padding: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.card-settings-right .settings-body .accordion-form .card-body .form-group button:hover ,
+.card-settings-right .settings-body .accordion-form .card-body .form-group button:active {
+    color: rgba(0, 204, 0,0.8);
+    border: 2px solid rgba(0, 204, 0,0.8);
+    transition: all 0.5s;
+    font-weight: 700;
+    background: transparent;
+    transform: translateY(-1px);
+}
+/******************* Gender Special CSS ********************************/
+.card-settings-right .settings-body .accordion-form-gen {
+    background: rgba(214, 224, 245,0.2);
+}
+.card-settings-right .settings-body .accordion-form-gen .card-header {
+    padding-bottom: 5px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-header label {
+    font-family: Poppins;
+    color: rgba(0, 0, 0,0.7);
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-header p {
+    font-family: 'Slabo 27px', serif;
+    color: rgba(0, 0, 0,0.7);
+    font-size: 16px;
+    padding: 0 10px 0 10px;
+    margin: 0;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-body {
+    background: transparent;
+    padding: 10px;
+    height: 150px;
+    margin-left: 150px;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-footer {
+    border-bottom: 1px solid #ddd;
+    border-top: none;
+    background: transparent;
+    padding-top: 0;
+    padding-right: 10px;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-footer button {
+    background: rgba(0, 204, 0,0.8);
+    border-radius: 20px;
+    border: 2px solid rgba(0, 204, 0,0.8);
+    width: 100px;
+    height: 35px;
+    margin: 0 0 0 30px;
+    padding: 0;
+    transition: all 0.5s;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.card-settings-right .settings-body .accordion-form-gen .card-footer button:hover,
+.card-settings-right .settings-body .accordion-form-gen .card-footer button:active {
+    color: rgba(0, 204, 0,0.8);
+    border: 2px solid rgba(0, 204, 0,0.8);
+    transition: all 0.5s;
+    font-weight: 700;
+    background: transparent;
+    transform: translateY(-1px);
+}
+.card-settings-right .settings-body .accordion-form-gen .card-body label {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    border: 1px solid rgba(0, 204, 0,0.8);
+    border-radius: 50px;
+    margin: 10px 0;
+    padding-left: 20px;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-body label .dot {
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    position: relative;
+    border: 3px solid rgba(0, 204, 0,0.8);
+}
+.card-settings-right .settings-body .accordion-form-gen .card-body .option-1 .dot {
+    margin-left: 205px;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-body .option-2 .dot {
+    margin-left: 190px;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-body .option-3 .dot {
+    margin-left: 204px;
+}
+.card-body label .dot::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2);
+    width: 9px;
+    height: 9px; 
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+#option-1:checked ~ .option-1 .dot ,
+#option-2:checked ~ .option-2 .dot ,
+#option-3:checked ~ .option-3 .dot {
+    background: rgba(255, 255, 255,0.8);
+    border: 3px solid transparent;
+}
+#option-1:checked ~ .option-1 .dot::before ,
+#option-2:checked ~ .option-2 .dot::before ,
+#option-3:checked ~ .option-3 .dot::before {
+    background: rgba(0, 204, 0,0.8);
+    transform: translate(-50%, -50%) scale(1);
+}
+.card-settings-right .settings-body .accordion-form-gen .card-body label .text {
+    color: #333;
+    font-size: 18px;
+    font-weight: 400;
+    transition: color 0.3s ease;
+}
+#option-1:checked ~ .option-1 ,
+#option-2:checked ~ .option-2 ,
+#option-3:checked ~ .option-3 {
+    background:  rgba(0, 204, 0,0.8);
+    border-color:  rgba(0, 204, 0,0.8);
+}
+#option-1:checked ~ .option-1 .text ,
+#option-2:checked ~ .option-2 .text ,
+#option-3:checked ~ .option-3 .text {
+    color: #ffffff;
+}
+.card-settings-right .settings-body .accordion-form-gen .card-body input[type="radio"]{
+    display: none;
+}
+/*************** Account Information Accordion Style End **********************/
+/********************* Settings Password Panel ********************************/
+.card-settings-right .settings-body .body-info-ps .form-group label {
+    position: absolute;
+    bottom: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    pointer-events: none;
+    color: rgba(0, 0, 0,0.7);
+    font-size: 17px;
+}
+.card-settings-right .settings-body .body-info-ps .form-group label .ps-span1 {
+    position: absolute;
+    bottom: 25px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.card-settings-right .settings-body .body-info-ps .form-group label .ps-span2 {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.card-settings-right .settings-body .body-info-ps .form-group label .ps-span3 {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3s ease;
+}
+.card-settings-right .settings-body .body-info-ps .form-group .form-control {
+    font-family: 'Candal', sans-serif;
+    height: 60px;
+    border-radius: 0;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    padding-top: 34px;
+    background: rgba(214, 224, 245,0.2);
+    border-bottom: 2px solid rgba(51, 51, 51,.7);
+    color: #333333;
+    font-size: 15px;  
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+.card-settings-right .settings-body .body-info-ps .form-group .form-control:focus {
+    border-bottom: 2px solid rgba(0, 204, 0,1);
+    box-shadow: inset 0 0 0 0 #ffffff;
+}
+.card-settings-right .settings-body .body-info-ps .form-group .form-control:focus + .ps-lable1 .ps-span1,
+.card-settings-right .settings-body .body-info-ps .form-group .form-control:valid + .ps-lable1 .ps-span1 {
+    transform: translateY(-120%);
+    color: rgba(0, 204, 0,1);
+}
+.card-settings-right .settings-body .body-info-ps .form-group .form-control:focus + .ps-lable2 .ps-span2,
+.card-settings-right .settings-body .body-info-ps .form-group .form-control:valid + .ps-lable2 .ps-span2 {
+    transform: translateY(-100%);
+    color: rgba(0, 204, 0,1);
+}
+.card-settings-right .settings-body .body-info-ps .form-group .form-control:focus + .ps-lable3 .ps-span3,
+.card-settings-right .settings-body .body-info-ps .form-group .form-control:valid + .ps-lable3 .ps-span3 {
+    transform: translateY(-100%);
+    color: rgba(0, 204, 0,1);
+}
+.card-settings-right .settings-body .body-info-ps-btn {
+    padding: 20px 0 0 350px; 
+}
+.card-settings-right .settings-body .body-info-ps-btn .save-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.card-settings-right .settings-body .body-info-ps-btn .reset-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.card-settings-right .settings-body .body-info-ps-btn .reset-btn:hover,
+.card-settings-right .settings-body .body-info-ps-btn .reset-btn:active,
+.card-settings-right .settings-body .body-info-ps-btn .save-btn:hover,
+.card-settings-right .settings-body .body-info-ps-btn .save-btn:active {
+    color: #00e600;
+    border: 2px solid #00e600;
+    font-weight: 700;
+    background: transparent;
+    transform: translateY(-1px);
+}
+@media (max-width:700px) {
+    .settings-row {
+        box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+    }
+    /*Left*/
+    .card-settings-left .settings-body .body-info .settings-main-icon {
+        padding: 16px 0 0 30px;
+    }
+    .card-settings-left .settings-body .body-info .settings-content {
+        padding: 10px 0 0 50px;
+    }
+    .card-settings-left .settings-body .body-info .settings-content p {
+        font-size: 13px;
+    }
+    .card-settings-left .settings-body .body-info .settings-btn-arrow {
+        padding: 20px 10px 0 0;
+    }
+    /*Right*/
+    .card-settings-right .settings-body .body-info-r .settings-main-icon {
+        padding: 5px 0 0 15px;
+    }
+    .card-settings-right .settings-body .body-info-r .settings-content {
+        padding: 0 0 0 40px;
+    }
+    .card-settings-right .settings-body .body-info-r .settings-btn-arrow {
+        padding: 10px 10px 0 0;
+    }
+    .card-settings-right .settings-body .accordion-form .card-body .form-group button {
+        padding: 10px 20px 5px 20px;
+        margin: 10px 5px 5px 100px;
+        width: 200px;
+    }
+    .card-settings-right .settings-body .accordion-form-gen .card-footer button {
+        margin: 0 20px 5px 100px;
+        width: 200px;
+        height: 40px;
+    }
+    .card-settings-right .settings-body .accordion-form-gen .card-body {
+        padding: 10px;
+        height: 150px;
+        margin-left: 0;
+    }
+    .card-settings-right .settings-body .accordion-form-gen .card-body label {
+        width: 100%;
+    }
+    .card-settings-right .settings-body .accordion-form-gen .card-body .option-1 .dot {
+        margin-left: 315px;
+    }
+    .card-settings-right .settings-body .accordion-form-gen .card-body .option-2 .dot {
+        margin-left: 300px;
+    }
+    .card-settings-right .settings-body .accordion-form-gen .card-body .option-3 .dot {
+        margin-left: 314px;
+    }
+    .card-settings-right .settings-body .body-info-ps-btn {
+        padding: 20px 0 0 150px; 
+    }
+}

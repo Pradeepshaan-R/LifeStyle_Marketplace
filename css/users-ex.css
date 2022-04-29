@@ -1,0 +1,183 @@
+/*Update User Modal Start*/
+.customerUpdateModal .modal-content .modal-header, .userUpdateModal .modal-content .modal-header button {
+    color: #ffffff;
+}
+.customerUpdateModal .modal-content {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: #22b3c8;
+    font-weight: 900;
+    color: #333333;
+    box-shadow: -2px 3px 64px -18px rgba(30, 220, 135, 1);
+}
+.customerUpdateModal .modal-content .modal-body form .form-group .form-control {
+    margin-top: 0;
+    color: #ddd;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid  #4d4d4d; 
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+.customerUpdateModal .modal-content .modal-body form .form-group .form-control:focus{
+    border: 2px solid #00e600;
+}
+.customerUpdateModal .modal-content .modal-body form .card-footer .save-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.customerUpdateModal .modal-content .modal-body form .card-footer .reset-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.customerUpdateModal .modal-content .modal-body form .card-footer .reset-btn:hover,
+.customerUpdateModal .modal-content .modal-body form .card-footer .reset-btn:active,
+.customerUpdateModal .modal-content .modal-body form .card-footer .save-btn:hover,
+.customerUpdateModal .modal-content .modal-body form .card-footer .save-btn:active {
+    color: #00e600;
+    border: 2px solid #00e600;
+    font-weight: 700;
+    background: transparent;
+    transform: translateY(-1px);
+}
+.customerUpdateModal form label {
+    color: #ffffff;
+}
+/*Update User Modal End*/
+
+/*Delete User Modal Start*/
+.customerDeleteModal .modal-content {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: #22b3c8;
+    font-weight: 900;
+    color: #ffffff;
+    box-shadow: -2px 3px 64px -18px rgba(30, 220, 135, 1);
+}
+.customerDeleteModal .modal-content .modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.customerDeleteModal .modal-content .modal-body form .card-footer .save-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.customerDeleteModal .modal-content .modal-body form .card-footer .close-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.customerDeleteModal .modal-content .modal-body form .card-footer .close-btn:hover,
+.customerDeleteModal .modal-content .modal-body form .card-footer .close-btn:active,
+.customerDeleteModal .modal-content .modal-body form .card-footer .save-btn:hover,
+.customerDeleteModal .modal-content .modal-body form .card-footer .save-btn:active {
+    color: #00e600;
+    border: 2px solid #00e600;
+    font-weight: 700;
+    background: transparent;
+    transform: translateY(-1px);
+}
+.customerDeleteModal form label {
+    color: #ffffff;
+}
+/*Delete User Modal End*/
+
+/*Update Supplier Modal Start*/
+.supplierUpdateModal .modal-content .modal-header, .userUpdateModal .modal-content .modal-header button {
+    color: #ffffff;
+}
+.supplierUpdateModal .modal-content {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: #22b3c8;
+    font-weight: 900;
+    color: #333333;
+    box-shadow: -2px 3px 64px -18px rgba(30, 220, 135, 1);
+}
+.supplierUpdateModal .modal-content .modal-body form .form-group .form-control {
+    margin-top: 0;
+    color: #ddd;
+    background: transparent;
+    border-radius: 6px;
+    border: 1px solid  #4d4d4d; 
+    box-shadow: inset 0 0 0 0 #ddd;
+}
+.supplierUpdateModal .modal-content .modal-body form .form-group .form-control:focus{
+    border: 2px solid #00e600;
+}
+.supplierUpdateModal .modal-content .modal-body form .card-footer .save-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.supplierUpdateModal .modal-content .modal-body form .card-footer .reset-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.supplierUpdateModal .modal-content .modal-body form .card-footer .reset-btn:hover,
+.supplierUpdateModal .modal-content .modal-body form .card-footer .reset-btn:active,
+.supplierUpdateModal .modal-content .modal-body form .card-footer .save-btn:hover,
+.supplierUpdateModal .modal-content .modal-body form .card-footer .save-btn:active {
+    color: #00e600;
+    border: 2px solid #00e600;
+    font-weight: 700;
+    background: transparent;
+    transform: translateY(-1px);
+}
+.supplierUpdateModal form label {
+    color: #ffffff;
+}
+/*Update Supplier Modal End*/
+
+/*Delete Supplier Modal Start*/
+.supplierDeleteModal .modal-content {
+    background: rgba(0, 0, 0, 0.8);
+    border-color: #22b3c8;
+    font-weight: 900;
+    color: #ffffff;
+    box-shadow: -2px 3px 64px -18px rgba(30, 220, 135, 1);
+}
+.supplierDeleteModal .modal-content .modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.supplierDeleteModal .modal-content .modal-body form .card-footer .save-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.supplierDeleteModal .modal-content .modal-body form .card-footer .close-btn {
+    background: #00e600;
+    border-radius: 20px;
+    border: 2px solid #00e600;
+    width: 100px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.supplierDeleteModal .modal-content .modal-body form .card-footer .close-btn:hover,
+.supplierDeleteModal .modal-content .modal-body form .card-footer .close-btn:active,
+.supplierDeleteModal .modal-content .modal-body form .card-footer .save-btn:hover,
+.supplierDeleteModal .modal-content .modal-body form .card-footer .save-btn:active {
+    color: #00e600;
+    border: 2px solid #00e600;
+    font-weight: 700;
+    background: transparent;
+    transform: translateY(-1px);
+}
+.supplierDeleteModal form label {
+    color: #ffffff;
+}
+/*Delete Supplier Modal End*/

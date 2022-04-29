@@ -1,0 +1,594 @@
+body {
+    /*background: rgba(0, 0, 0, 1);*/
+    /*background: rgba(242, 242, 242,.9);*/
+    background: rgba(230, 230, 230,0.5);
+    color: black;
+}
+
+/********************* TopMost Nav Start ******************************/
+.topmost-nav {
+    height: 30px;
+    font-size: 14px;
+    box-shadow: none;
+    z-index: 1000;
+}
+.topmost-nav .dropdown-name a span {
+    color: #00cc33;
+}
+.topbar-divider {
+    width: 0;
+    border-right: 0.9px solid;
+    height: 1.7rem;
+    margin: auto 1rem;
+    color: #cccccc;
+}
+/********************* TopMost Nav End ********************************/
+
+/********************* Header Nav Start *******************************/
+.header-nav {
+    height: 90px;
+    background: rgba(255, 255, 255, 1);
+    /*    box-shadow: 0 5px 15px rgba(0,0,0,0.2);*/
+    box-shadow: -1px 2px 9px 0px rgba(0,0,0,0.2);
+    /*    border-bottom: 1px solid rgba(0, 0, 0, 1);*/
+    z-index: 999;
+}
+.header-nav .senz {
+    max-height: 56px;
+    margin: 0;
+    padding: 8px 0 0 65px;
+    background: transparent;
+}
+.header-nav .header-search form .input-group {
+    padding: 22px 0 0 20px;
+}
+.header-nav .header-cart-icon i {
+    font-size: 40px;
+    padding: 22px 0 0 20px;
+    color: rgba(0, 204, 102, 0.9);
+}
+.header-nav .header-cart-icon i:hover {
+    color: rgba(0, 204, 102, 0.8);
+}
+/*********************** Header Nav End *******************************/
+
+/*************** Additional Search Bar CSS START **********************/
+.header-nav form .input-group .input-group-prepend .dropdown-toggle {
+    background: rgba(0, 204, 102, 0.9);
+    padding: 10px 16px;
+    border: none;
+}
+.header-nav form .input-group .input-group-prepend .dropdown-toggle:focus,
+.header-nav form .input-group .input-group-prepend .dropdown-toggle:hover {
+    box-shadow: inset 0 0 0 0 #ddd;
+    background: rgba(0, 204, 102, 0.8);
+}
+.search-input {
+    background: rgba(255,255,255,0.5);
+    height: 45px;
+    border: none;
+    border-radius: 0;
+    border-top: 2px solid #00cc33;
+    border-bottom: 2px solid #00cc33;
+}
+.search-input:focus {
+    background: transparent;
+    box-shadow: none;
+    border-top: 2px solid #00cc99;
+    border-bottom: 2px solid #00cc99;
+}
+.search-btn {
+    background: rgba(0, 204, 102, 0.9);
+    border-radius: 50%;
+    padding: 10px 16px;
+    border: none;
+}
+.search-btn:focus,
+.search-btn:hover {
+    box-shadow: inset 0 0 0 0 #ddd;
+    background: rgba(0, 204, 102, 0.8);
+}
+/*************** Additional Search Bar CSS END ************************/
+
+/****************** Top Category Section Start ************************/
+.category-menu {
+    height: 365px;
+    font-size: 14px;
+    float: left;
+    z-index: 2;
+    background: rgba(255,255,255,0.9);
+    color: rgba(0,0,0,0.8);
+    font-family: Poppins;
+    padding: 0;
+}
+.category-menu ul {
+    padding-left: 0;
+}
+.category-menu ul li i {
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: rgba(0,0,0,0.6);
+}
+.category-menu ul li:hover i {
+    color:  #00cc66;
+}
+.category-menu ul li {
+    list-style-type: none;
+    font-weight: 400;
+    cursor: pointer;
+    padding-left: 10px;
+    height: 40px;
+    padding-top: 10px;
+}
+.category-menu ul li .fa-chevron-right ,
+.category-menu ul li .fa-angle-double-right {
+    margin-top: 4px;
+    margin-right: 8px;
+    float: right;
+    display: none;
+}
+.category-menu ul li:hover .fa-chevron-right ,
+.category-menu ul li:hover .fa-angle-double-right {
+    display: block;
+
+}
+.category-menu ul li:hover {
+    color: #00cc66;
+    background: rgba(214, 224, 245,0.3);
+    font-weight: 500;
+}
+.category-menu ul li ul {
+    display: none;
+    z-index: 10;
+    top: 160px;
+    width: 500px;
+    column-count: 4;
+}
+.category-menu ul li:hover ul {
+    display: block;
+    color: rgba(0,0,0,0.6);
+    height: 300px;
+    margin-left: 17%;
+    padding: 0 10px 10px 10px;
+    position: fixed;
+    background: rgba(255,255,255,0.9);
+    border-radius: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/****************** Top Category Section End **************************/
+
+/****************** Top Carousel Section Start ************************/
+.carousel .card {
+    border-radius: 20px;
+}
+.carousel-caption {
+    top: 120px;
+    z-index: 1;
+}
+/****************** Top Carousel Section End **************************/
+
+/******************** Invitation Section Start ************************/
+.invitation {
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    border-radius: 7px;
+    padding: 0;
+    /*height: 300px;*/
+    background: rgba(255,255,255,0.3);
+}
+.invitation .avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 204, 102, 0.8);
+    border-bottom-color: transparent;
+    margin-bottom: 2px;
+}
+.invitation .card-header {
+    padding: 0;
+    border: none;
+    background: transparent;
+}
+.invitation .card-header .author {
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    margin-top: 10px;
+    a +  p.description {
+        margin-top: 0px;
+    }
+}
+.invitation .card-header .author .title {
+    font-family: Poppins;
+    color: rgba(0,0,0,0.7);
+    font-weight: 400;
+    font-size: 12px;
+}
+.invitation .card-header .author .description {
+    font-family: Poppins;
+    color: rgba(0,0,0,0.7);
+    font-weight: 600;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.invitation .invitation-btn {
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 8px;
+}
+.invitation .invitation-btn .join-btn {
+    background: rgba(0, 204, 102, 0.8);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 204, 102, 0.8);
+    width: 100px;
+}
+.invitation .invitation-btn .signin-btn {
+    background: rgba(0, 204, 102, 0.8);
+    border-radius: 20px;
+    border: 1px solid rgba(0, 204, 102, 0.8);
+    width: 100px;
+}
+.invitation .invitation-btn .join-btn:hover,
+.invitation .invitation-btn .join-btn:active,
+.invitation .invitation-btn .signin-btn:hover, 
+.invitation .invitation-btn .signin-btn:active {
+    background: rgba(0, 204, 102, 0.7);
+    border: 1px solid rgba(0, 204, 102, 0.8);
+}
+.invitation-sell {
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    border-radius: 7px;
+    padding: 0;
+    height: 114px;
+    background: rgba(255,255,255,0.3);
+}
+.invitation-sell .card-header {
+    border: none;
+    background: transparent;
+}
+.invitation-sell .card-header h3{
+    font-family: Poppins;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 8px;
+}
+.invitation-sell .card-header .sell-btn{
+    font-family: Poppins;
+    font-size: 15px;
+    background: rgba(0, 204, 102, 0.8);
+    border: 1px solid rgba(0, 204, 102, 0.8);
+    margin-left: 20px;
+}
+.invitation-sell .card-header .sell-btn:hover,
+.invitation-sell .card-header .sell-btn:active{
+    background: rgba(0, 204, 102, 1);
+    border: 1px solid rgba(0, 204, 102, 0.8);
+}
+/******************** Invitation Section End **************************/
+
+/************************ Products Section Start **********************/
+.product {
+    background: rgba(255,255,255,0.9);
+    border-radius: 7px;
+}
+.product .pro-topic {
+    padding-bottom: 20px;
+}
+.product .pro-topic h3 {
+    font-family: Poppins;
+    font-weight: 500;
+    margin: 0;
+}
+.product .pro-topic .btn-viewall {
+    font-family: Poppins;
+    text-decoration: none;
+}
+.product .pro-topic .btn-viewall h5 {
+    font-size: 15px;
+    color: #000;
+}
+.product .pro-topic .btn-viewall h5:hover {
+    color: #00cc33;
+}
+.product .pro-topic .underline {
+    top: 0;
+    margin-left: 75px;
+    width: 140px;
+    height: 2px;
+    background: #00cc33;
+}
+.product .row {
+    margin: 0 10px 0 40px;
+}
+.product .pro-items {
+    padding: 0;
+    margin: 0 30px 0 0;
+}
+.product .pro-items .card  {
+    padding: 20px 0 0 0;
+    border: 0;
+    background: transparent;
+    text-align: center;
+}
+.product .pro-items .card-img-top-circle {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+.product .pro-items .card-img-top-box {
+    height: 200px;
+    width: 200px;
+}
+.product .pro-items h4 {
+    font-family: Poppins;
+    color: rgba(0,0,0,0.7);
+    font-weight: 400;
+    font-size: 17px;
+    padding-top: 30px;
+}
+.product .pro-items .card:hover  {
+    padding-top: 20px;
+    /*border: 0;*/
+}
+.product .pro-items .card:hover .card-img-top-circle {
+    border: 2px solid #ddd;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.product .pro-items .card:hover .card-img-top-box {
+    border: 2px solid #ddd;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.product .pro-items .card:hover a {
+    text-decoration: none;
+}
+/************************** Products Section End **********************/
+
+/***************** Products Slider Section Start **********************/
+.post-slider {
+    /*background-image: linear-gradient(to bottom, rgba(255, 255, 255,0.5) , rgba(0, 204, 102, 0.7));*/
+    /*border-radius: 60% 0 0 60%;*/
+    background: rgba(255,255,255,0.9);
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.3);*/
+    position: relative;
+    margin-bottom: 24px;
+    border-radius: 7px;
+}
+.post-slider .next,
+.post-slider .next1 {
+    position: absolute;
+    top: 40%;
+    right: 30px;
+    font-size: 2em;
+    color: rgba(0, 204, 102, 0.5);
+    cursor: pointer;
+}
+.post-slider .prev,
+.post-slider .prev1 {
+    position: absolute;
+    top: 40%;
+    left: 30px;
+    font-size: 2em;
+    color: rgba(0, 204, 102, 0.5);
+    cursor: pointer;
+}
+.post-slider .next:hover,
+.post-slider .prev:hover,
+.post-slider .next1:hover,
+.post-slider .prev1:hover {
+    color: rgba(0, 204, 102, 1);
+}
+.post-slider .slider-title {
+    text-align: center;
+    margin: 30px auto;
+}
+.post-slider .deal-topic h3 {
+    font-family: Poppins;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 15px;
+}
+.post-slider .deal-topic .underline-daily {
+    top: 0;
+    width: 120px;
+    height: 2px;
+    background: #00cc33;
+    margin-left: 10px;
+}
+.post-slider .deal-topic .underline-weekly {
+    top: 0;
+    width: 145px;
+    height: 2px;
+    background: #00cc33;
+    margin-left: 14px;
+}
+.post-slider .post-wrapper,
+.post-slider .post-wrapper1 {
+    width: 84%;
+    height: 350px;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+.post-slider .post-wrapper .post,
+.post-slider .post-wrapper1 .post {
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    margin: 10px 10px;
+    padding-top: 20px;
+}
+.post-slider .post-wrapper .post .card,
+.post-slider .post-wrapper1 .post .card {
+    padding: 20px 0 0 0;
+    border: 0;
+    background: transparent;
+}
+.post-slider .post-wrapper .post .card a,
+.post-slider .post-wrapper1 .post .card a {
+    text-align: center;
+}
+.post-slider .post-wrapper .post .card a h4,
+.post-slider .post-wrapper1 .post .card a h4{
+    font-family: Poppins;
+    color: rgba(0,0,0,0.7);
+    font-weight: 400;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-left: 20px;
+    text-align: center;
+}
+.post-slider .post-wrapper .post .card a p,
+.post-slider .post-wrapper1 .post .card a p{
+    font-family: Poppins;
+    color: rgba(0,0,0,0.9);
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 20px;
+    text-align: center;
+}
+.post-slider .post-wrapper .post .card .card-img-top-circle,
+.post-slider .post-wrapper1 .post .card .card-img-top-circle {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    margin-left: 45px;
+    text-align: center;
+}
+.post-slider .post-wrapper .post .card:hover .card-img-top-circle,
+.post-slider .post-wrapper1 .post .card:hover .card-img-top-circle {
+    border: 2px solid #ddd;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+.post-slider .post-wrapper .post .card:hover a,
+.post-slider .post-wrapper1 .post .card:hover a {
+    text-decoration: none;
+    outline: none;
+}
+/******************** Products Slider Section End **********************/
+
+/****************** Parallex-Background Section Start ******************/
+.parallex {
+/*    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../images/12.jpg)no-repeat;*/
+/*    background-attachment: fixed;
+    background-size: 100% 100%;
+    width: 100%;*/
+}
+.parallex h2 {
+    font-size: 55px;
+    font-weight: 700;
+}
+.parallex p {
+    font-size: 22px;
+}
+.parallex .btn-shop {
+    height: 40px;
+    width: 110px;
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: white;
+    outline: none;
+    border-radius: 4px;
+}
+.parallex .btn-shop:hover {
+    background: #ffffff;
+    color: #00cc66;
+    border: none;
+}
+.parallex .btn-deal {
+    height: 40px;
+    width: 110px;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    color: #00cc66;
+    outline: none;
+    border-radius: 4px;
+}
+.parallex .btn-deal:hover {
+    background: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+/******************** Parallex-Background Section End ******************/
+
+/******************** Offer Section Start *****************************/
+.offer {
+    background: rgba(230, 230, 230,0.9);
+    color: rgba(0,0,0,0.7);
+    font-weight: 600;
+    text-align: center;
+}
+.offer .m-right {
+    border-right: 2px solid rgba(0,0,0,0.7);
+    border-right-style: dashed;
+}
+/********************** Offer Section End *****************************/
+
+@media (max-width:700px) {
+    .topmost-nav {
+        display: none;
+    }
+    .header-nav .header-logo {
+        padding: 0;
+    }
+    .header-nav .senz {
+        max-height: 38px;
+        margin: 0;
+        padding: 14px 0 0 1px;
+        background: transparent;
+    }
+    .header-nav .header-search {
+        padding: 0;
+    }
+    .header-nav .header-search form .input-group {
+        padding: 22px 0 0 0;
+    }
+    .header-nav .header-cart-icon {
+        padding: 0;
+    }
+    .header-nav .header-cart-icon i {
+        font-size: 20px;
+        padding: 34px 0 0 7px;
+        color: #00cc66;
+    }
+    .category-menu {
+        width: 100%;
+    }
+    .category-menu ul li:hover ul {
+        display: none;
+    }
+    .category-menu ul li i {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    .invitation-sell .card-header {
+        text-align: center;
+    }
+    .category {
+        margin-top: 10px;
+    }
+    .category .cat-items .card  {
+        text-align: center;
+    }
+    .category .cat-items .card-img-top {
+        margin-left: 0;
+    }
+}
+
+/******************** ScrollBar Customization Start ******************/
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgba(0,0,0,0.4); 
+    border-radius: 8px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 230, 0,0.6); 
+}
+/******************** ScrollBar Customization End ********************/

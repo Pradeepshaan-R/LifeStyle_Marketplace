@@ -1,0 +1,98 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.content {
+    margin-left: 228px;
+    width: calc(100% - 228px);
+    padding: 20px;
+    transition: all 0.3s;
+}
+
+/*************** Additional Search Bar CSS START ********************/
+
+/*.search-input {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #00cc33;
+    transition: all .4s;
+}
+.search-input:focus {
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #00cc99;
+}
+.search-btn {
+    border-radius: 50%;
+    padding: 10px 16px;
+    transition: all .4s;
+    border: none;
+}
+.search-btn:hover {
+    background: #00cc66;
+    transform: translateY(-1px);
+}*/
+
+/*************** Additional Search Bar CSS END ********************/
+
+/*Footer*/
+
+footer.sticky-footer {
+    padding: 2rem 0;
+    color: #999999;
+    flex-shrink: 0;
+    .copyright {
+        line-height: 1;
+        font-size: 0.8rem;
+    }
+}
+
+body.sidebar-toggled {
+    footer.sticky-footer {
+        width: 100%;
+    }
+}
+
+/*Bootstrap Switch Toggle*/
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios {
+    border-radius: 50px;
+}
+
+.toggle.ios .toggle-handle {
+    border-radius: 50px;
+}
+
+.top-user-in a {
+    padding-left: 10px;
+}
+
+.top-user-in .dark-mode-btn {
+    padding: 4px 24px 4px 10px;
+}
+
+.top-user-in .dark-mode-btn label i {
+    padding-right: 14px;
+}
+
+.top-user-in .dark-mode-btn .dark-radio {
+    padding-left: 30px;
+}
+
+.top-user-in .dark-mode-btn .dark-radio .control-label-off {
+    padding-right: 50px;
+}
+
+.top-user-in .dark-mode-btn .dark-radio .control-label-on {
+    padding-right: 55px;
+}

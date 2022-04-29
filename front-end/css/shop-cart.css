@@ -1,0 +1,29 @@
+.shop-cart {
+    background: rgba(255,255,255,0.9);
+    padding: 10px;
+}
+.shop-cart .cart-title {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+.shop-cart .cart-product-info .product-img {
+    height: 150px;
+    width: 120px;
+}
+.shop-cart .cart-product-info .product-details h5 {
+    font-size: 25px;
+    padding-top: 10px;
+    margin: 0;
+}
+.shop-cart .cart-product-info .product-details small {
+    font-size: 12px;
+}
+.shop-cart .cart-product-info .product-details .d-flex {
+    font-size: 12px;
+}
+.shop-cart .cart-product-info .product-details .d-flex a {
+    margin-left: 10px;
+    text-decoration: none;
+}

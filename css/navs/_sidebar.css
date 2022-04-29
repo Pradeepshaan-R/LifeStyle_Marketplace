@@ -1,0 +1,166 @@
+/********************* Toggler Button *******************/
+
+.sidebar-btn {
+    position: absolute;
+    margin-left: 200px;
+    font-size: 22px;
+    font-weight: 900;
+    cursor: pointer;
+    transition: 0.3s;
+    transition-property: color;
+    margin-right: auto;
+}
+.sidebar-btn:hover {
+    color: #00cc33;
+}
+/********************* Side-Bar Start  *******************/
+.wrapper .sidebar {
+    z-index: 1;
+    position: fixed;
+    top: 70px;
+    background: rgba(255,255,255,0.8);
+    width: 228px;
+    height: calc(100% - 9%);
+    transition: 0.3s;
+    transition-property: width;
+    overflow-y: hidden;
+    /*box-shadow:  10px 0 17px rgba(0,0,0,.3);*/
+    box-shadow: 5px 0 15px #999;
+}
+.wrapper .sidebar .sidebar-menu {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.wrapper .sidebar .sidebar-menu .item {
+    position: relative;
+    width: 228px;
+    overflow: hidden;
+}
+.wrapper .sidebar .sidebar-menu .item .menu-btn {
+    display: block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    text-align: center;
+    transition: all 0.3s;
+    transition-property: color;
+    text-decoration: none;
+    display: flex;
+}
+.wrapper .sidebar .sidebar-menu .item i {
+    position: relative;
+    display: block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}/*
+
+*/.wrapper .sidebar .sidebar-menu .item span {
+    position: relative;
+    display: block;
+    padding: 0 10px;
+    font-size: 16px;
+    line-height: 60px;
+    height: 60px;
+    /*text-align: start;*/
+}
+.wrapper .sidebar .sidebar-menu .item .current {
+    background-color: #00cc33;
+    display: block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    transition: all 0.3s;
+    transition-property: color;
+    text-decoration: none;
+}
+.wrapper .sidebar .sidebar-menu .item .profile-menu-btn {
+    display: block;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.9);
+    position: relative;
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+    transition: all 0.3s;
+    transition-property: color;
+    text-decoration: none;
+}
+.wrapper .sidebar .sidebar-menu .item .profile-menu-btn i {
+    color: #00cc33;
+}
+.wrapper .sidebar .sidebar-menu .item .profile-menu-btn:hover {
+    color: #00cc33;
+}
+.wrapper .sidebar .sidebar-menu .item .current i {
+    color: rgba(255,255,255,0.9);
+    font-weight: 100;
+}
+.wrapper .sidebar .sidebar-menu .item .current:hover {
+    background-color: #00cc66;
+    transform: translateY(-1px);
+}
+.wrapper .sidebar .sidebar-menu .item .menu-btn:hover {
+    /*color: #00cc66;*/
+    color: rgba(0, 0, 0, 0.9);
+    background: #00cc66;
+    /*transform: translateY(-1px);*/
+}
+/****************** Collapse Button CSS ******************/
+.wrapper.collapsex.sidebar {
+    width: 70px;
+}
+
+.wrapper.collapsex.sidebar .item .current {
+    font-size: 22px;
+}
+
+.wrapper .collapsex.sidebar .item a span {
+    display: none;
+}
+
+.wrapper .collapsex.sidebar .sidebar-menu .item .menu-btn {
+    font-size: 22px;
+}
+
+.wrapper .collapsex.content {
+    width: calc(100% - 70px);
+    margin-left: 70px;
+}
+
+@media (max-width:700px) {
+    .wrapper .sidebar {
+        width: 70px;
+    }
+    .wrapper .sidebar .item a span {
+        display: none;
+    }
+    .wrapper .content {
+        width: calc(100% - 70px);
+        margin-left: 70px;
+    }
+    .wrapper.collapsex.sidebar {
+        width: 0;
+    }
+    .wrapper .collapsex.sidebar .item a span {
+        display: none;
+    }
+    .wrapper .collapsex.sidebar .sidebar-menu .item .menu-btn {
+        font-size: 22px;
+    }
+    .wrapper .collapsex.content {
+        width: 100%;
+        margin-left: 0;
+    }
+}
