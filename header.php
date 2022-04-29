@@ -57,7 +57,7 @@ function profileUserPic() {
                 </div>
             </a>
             <!----------------- Dashboard Top-Bar Toggler ----------------------->
-            <div class="sidebar-btn">
+            <div class="sidebar-btn ml-3">
                 <i class="fas fa-align-center"></i>
             </div>
             <!----------------- Nav Item - Alerts ----------------------------->

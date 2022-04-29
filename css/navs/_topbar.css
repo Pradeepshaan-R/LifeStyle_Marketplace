@@ -19,13 +19,13 @@ nav {
 
 .logo-Text {
     max-height: 30px;
-    margin-left: 6px;
+    margin-left: 0px;
     font-size: 19px;
     font-weight: bold;
     border: 1px solid black;
     background: teal;
     color: white;
-    height: 30px;
+    padding: 10px;
 }
 
 .navbar-search {
