@@ -50,14 +50,15 @@ function profileUserPic() {
         <!----------------- Dashboard Top-Bar Start ----------------------->
         <nav class="navbar navbar-expand bg-light mb-4 topbar sticky-top">
             <!----------------- Dashboard Top-Bar Brand ----------------------->
-            <a href="index.php" class="navbar-brand mb-3 senz">
-                <div class="img-thumbnail border-0 senz">
+            <a href="index.php" class="navbar-brand mb-3 mt-3">
+                <div class="img-thumbnail border-0">
                     <!-- <img src="images/SenzAgro_Logo.png" alt="logo" class="senz mb-4"> -->
                     <span class="logo-Text mb-4">Life Style Market Place</span>
                 </div>
             </a>
             <!----------------- Dashboard Top-Bar Toggler ----------------------->
-            <div class="sidebar-btn ml-3">
+            <!-- <br/> -->
+            <div class="sidebar-btn">
                 <i class="fas fa-align-center"></i>
             </div>
             <!----------------- Nav Item - Alerts ----------------------------->

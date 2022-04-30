@@ -43,7 +43,7 @@ if (isset($_POST['search'])) {
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <span class="mr-2 d-none d-lg-inline"><i class="far fa-user pr-2"></i>Pradeepshaan Ramdas
+                        <span class="mr-2 d-none d-lg-inline"><i class="far fa-user pr-2"></i>Malisha Creancy
                             <?php // echo $_SESSION['customer']['customer_fname'] . " " . $_SESSION['customer']['customer_lname']; ?>
                         </span>
                     </a>
@@ -58,7 +58,7 @@ if (isset($_POST['search'])) {
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <i class="fas fa-store pr-2"></i>Sell on SenzMarket
+                        <i class="fas fa-store pr-2"></i>Sell on Lifestyle Market
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink1">
                         <a class="dropdown-item" href="#">Seller Login</a>
@@ -116,8 +116,9 @@ if (isset($_POST['search'])) {
             <div class="row header-nav sticky-top">
                 <div class="col-md-3 col-3 header-logo">
                     <a href="index-front.php" class="navbar-brand">
-                        <div class="img-thumbnail border-0 senz">
-                            <img src="images/SenzAgro_Logo.png" alt="logo" class="senz">
+                        <div class="img-thumbnail border-0 senz mt-3">
+                            <!-- <img src="images/SenzAgro_Logo.png" alt="logo" class="senz"> -->
+                            <span class="logo-Text">Life Style Market Place</span>
                         </div>
                     </a>
                 </div>
@@ -129,7 +130,7 @@ if (isset($_POST['search'])) {
 <!--                                    <i class="fas fa-search"></i>-->
                                 </button>
                             </div>
-                            <input type="text" name="search" class="form-control search-input" placeholder="Search in SenzMarket">
+                            <input type="text" name="search" class="form-control search-input" placeholder="Search in LifeStyle Market Place">
                             <div class="input-group-append">
                                 <button class="btn search-btn" type="button">
                                     <i class="fas fa-search fa-sm"></i>

@@ -410,18 +410,27 @@ while ($row = $urole->fetch_assoc()) {
                                     </div>
                                 </div>
                                 <div class="row">
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                             <select name="u_role" disabled class="custom-select form-control ml-2"
+                                                id="v_urole" disabled>
+                                                <?php
+                                            $v_urole = getrole();
+                                            while ($row = $v_urole->fetch_assoc()) {
+                                                ?>
+                                                <option value="<?php echo $row["role_id"]; ?>">
+                                                    <?php echo $row["role_name"]; ?>
+                                                </option> <?php }?>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
                                     <div class="col-md-4 pt-2"></div>
                                     <div class="col-md-8">
                                         <div class="form-group view-select">
                                             <select name="u_role" disabled class="custom-select form-control ml-2"
                                                 id="v_urole" disabled>
-                                                <?php
-$v_urole = getrole();
-while ($row = $v_urole->fetch_assoc()) {
-    ?>
-                                                <option value="<?php echo $row["role_id"]; ?>">
-                                                    <?php echo $row["role_name"]; ?>
-                                                </option> <?php }?>
+                                               
                                             </select>
                                         </div>
                                     </div>

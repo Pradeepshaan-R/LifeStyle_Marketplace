@@ -9,13 +9,13 @@ class PDF extends FPDF {
 
     // Page header
     function Header() {
-        $this->Image("images/SenzAgro_Logo.png", 30, 15, 20);  // Logo
+        // $this->Image("images/SenzAgro_Logo.png", 30, 15, 20);  // Logo
         $this->SetFont('Arial', 'B', 15); // Arial bold 15
         $this->SetFillColor(200, 220, 255);
         $this->SetTextColor(0, 77, 77); //font Color
         $this->Cell(277, 5, 'Supplier Report (' . date('Y-m-d') . ')', 0, 1, 'C'); // Title
         $this->SetFont('Times', '', 13);
-        $this->Cell(276, 10, 'Supplier Details of SenzAgro (Pvt)Ltd.', 0, 0, 'C');
+        $this->Cell(276, 10, 'Supplier Details of LifeStyle Market Place.', 0, 0, 'C');
         // $this->SetTextColor(255 , 255, 51); //font Color
         $this->Ln(15); // Line break
     }

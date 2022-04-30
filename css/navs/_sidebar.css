@@ -10,15 +10,18 @@
     transition-property: color;
     margin-right: auto;
 }
+
 .sidebar-btn:hover {
-    color: #00cc33;
+    color: rgba(0, 170, 255, 0.8);
+    /* color: #00cc33; */
 }
+
 /********************* Side-Bar Start  *******************/
 .wrapper .sidebar {
     z-index: 1;
     position: fixed;
     top: 70px;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
     width: 228px;
     height: calc(100% - 9%);
     transition: 0.3s;
@@ -27,6 +30,7 @@
     /*box-shadow:  10px 0 17px rgba(0,0,0,.3);*/
     box-shadow: 5px 0 15px #999;
 }
+
 .wrapper .sidebar .sidebar-menu {
     overflow: hidden;
     position: absolute;
@@ -34,11 +38,13 @@
     top: 0;
     left: 0;
 }
+
 .wrapper .sidebar .sidebar-menu .item {
     position: relative;
     width: 228px;
     overflow: hidden;
 }
+
 .wrapper .sidebar .sidebar-menu .item .menu-btn {
     display: block;
     font-size: 18px;
@@ -52,6 +58,7 @@
     text-decoration: none;
     display: flex;
 }
+
 .wrapper .sidebar .sidebar-menu .item i {
     position: relative;
     display: block;
@@ -59,9 +66,12 @@
     height: 60px;
     line-height: 60px;
     text-align: center;
-}/*
+}
 
-*/.wrapper .sidebar .sidebar-menu .item span {
+/*
+
+*/
+.wrapper .sidebar .sidebar-menu .item span {
     position: relative;
     display: block;
     padding: 0 10px;
@@ -70,8 +80,10 @@
     height: 60px;
     /*text-align: start;*/
 }
+
 .wrapper .sidebar .sidebar-menu .item .current {
-    background-color: #00cc33;
+    background-color: rgba(0, 170, 255, 0.9);
+    /* background-color: #00cc33; */
     display: block;
     font-size: 18px;
     color: rgba(0, 0, 0, 0.9);
@@ -84,10 +96,11 @@
     transition-property: color;
     text-decoration: none;
 }
+
 .wrapper .sidebar .sidebar-menu .item .profile-menu-btn {
     display: block;
     font-size: 18px;
-    color: rgba(0, 0, 0, 0.9);
+    color: rgba(0, 0, 0, 0.7);
     position: relative;
     min-width: 60px;
     height: 60px;
@@ -97,26 +110,36 @@
     transition-property: color;
     text-decoration: none;
 }
+
 .wrapper .sidebar .sidebar-menu .item .profile-menu-btn i {
-    color: #00cc33;
+    color: rgba(0, 170, 255, 0.4);
+    /* color: #00cc33; */
 }
+
 .wrapper .sidebar .sidebar-menu .item .profile-menu-btn:hover {
-    color: #00cc33;
+    color: rgba(0, 170, 255, 0.7);
+    /* color: #00cc33; */
 }
+
 .wrapper .sidebar .sidebar-menu .item .current i {
-    color: rgba(255,255,255,0.9);
+    color: rgba(255, 255, 255, 0.7);
     font-weight: 100;
 }
+
 .wrapper .sidebar .sidebar-menu .item .current:hover {
-    background-color: #00cc66;
+    background-color: rgba(0, 170, 255, 0.9);
+    /* background-color: #00cc66; */
     transform: translateY(-1px);
 }
+
 .wrapper .sidebar .sidebar-menu .item .menu-btn:hover {
     /*color: #00cc66;*/
     color: rgba(0, 0, 0, 0.9);
-    background: #00cc66;
+    background: rgba(0, 170, 255, 0.9);
+    /* background: #00cc66; */
     /*transform: translateY(-1px);*/
 }
+
 /****************** Collapse Button CSS ******************/
 .wrapper.collapsex.sidebar {
     width: 70px;
@@ -143,22 +166,28 @@
     .wrapper .sidebar {
         width: 70px;
     }
+
     .wrapper .sidebar .item a span {
         display: none;
     }
+
     .wrapper .content {
         width: calc(100% - 70px);
         margin-left: 70px;
     }
+
     .wrapper.collapsex.sidebar {
         width: 0;
     }
+
     .wrapper .collapsex.sidebar .item a span {
         display: none;
     }
+
     .wrapper .collapsex.sidebar .sidebar-menu .item .menu-btn {
         font-size: 22px;
     }
+
     .wrapper .collapsex.content {
         width: 100%;
         margin-left: 0;

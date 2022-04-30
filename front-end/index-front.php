@@ -269,12 +269,12 @@ function viewProduct7() {
                     <p class="card-text">
                     <div class="author">
                         <a>
-                            <img class="avatar" src="images/Pradeepshaan.jpg" alt="...">
+                            <img class="avatar" src="images/6.jpg" alt="...">
                             <!--<input type="file" id="User_img" name="user_img" onchange="readURL(this)" class="form-control">-->
-                            <h5 class="title">Pradeepshaan Ramdas</h5>
+                            <h5 class="title">Malisha Creancy</h5>
                         </a>
                         <p class="description">
-                            Welcome to SenzMarket
+                            Welcome to Lifestyle Market Place
                         </p>
                     </div>
                     </p>

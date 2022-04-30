@@ -67,9 +67,10 @@ if (isset($_SESSION['user'])) {
             <div class="panels-container">
                 <div class="panel left-panel">
                     <div class="content">
-                        <img alt="" src="images/SenzAgro_Logo.png" class="logo">
-                        <h3>Glady Welcomes You!</h3>
-                        <p>Simply Sign Up to the SenzMarket and enjoy a great deal of surprices and ease in doing your daily Marketing.
+                        <!-- <img alt="" src="images/SenzAgro_Logo.png" class="logo"> -->
+                         <span class="logo-Text mb-4">Life Style Market Place</span>
+                        <h3 class="mt-4">Glady Welcomes You!</h3>
+                        <p>Simply Sign Up to the LifeStyle MarketPlace and enjoy a great deal of surprises and ease in doing your daily Marketing.
                         </p>
                     </div>
                     <img class="image" alt="" src="images/login4.svg">

@@ -22,10 +22,16 @@ nav {
     margin-left: 0px;
     font-size: 19px;
     font-weight: bold;
-    border: 1px solid black;
-    background: teal;
+    border: 0px solid black;
+    border-radius: 50px;
+    background: rgba(0, 170, 255, 0.8);
     color: white;
     padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.logo-Text:hover {
+    background: rgba(0, 170, 255, 0.9);
 }
 
 .navbar-search {
@@ -120,7 +126,7 @@ nav {
     width: 20px;
     border-radius: 50px;
     position: relative;
-    border: 3px solid rgba(0, 204, 0, 0.8);
+    border: 3px solid rgba(0, 170, 255, 0.9);
 }
 
 .dark-mode-btn .option-1 .dot {
